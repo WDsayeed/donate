@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/BDflood-woman.jpg');
+    background-size: cover;
+    background-color: rgb(117, 116, 116);
+    background-blend-mode: multiply;
+}
+    
+    
+    
+
+.header{
+    text-align: center;
+    padding: 400px;
+    margin: 30px 170px;
+}  
+.header-title{
+    color: white;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-description{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-donate{
+    background-color:#FF5959;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 40px;
+    border: 0;
+    border-radius: 5px;
+
+}
+/* donate amount style */
+.donate-amount-section{
+    margin: 30px 120px;
+    
+}
+.donate-today{
+    text-align: center;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+.donate-amount-description{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 500px;
+}
+.amount-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.amount{
+    background-color: rgb(248, 248, 248);
+    border: 2px solid transparent;
+    padding: 50px;
+    font-weight: bold;
+    font-size:30px ;
+    
+}
+.amount:hover{
+    border: 2px solid rgba(241, 112, 118, 0.966);
+    background-color:  rgba(241, 222, 223, 0.966);
+    border-radius: 5px;
+}
+.other-amount{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 20px;
+}
+hr{
+    width: 1000px;
+    margin: auto;
+    color: gray;
+    margin-bottom: 30px;
+    
+}
+.donate-plan-section{
+    margin: 30px 120px;
+}
+.donate-plan-description{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 500px;
+    
+}
+.donate-container{
+    display: flex;
+    gap: 20px;
+    margin:0 200px;
+}
+.donate-plane1{
+    background-color: #EDF5F6;
+    padding: 70px;
+    border-radius: 8px;
+}
+.donate-plane2{
+    background-color: #FFEEEE;
+    padding: 70px;
+    border-radius: 8px;
+    }
+.donate-plane3{
+    background-color: #FFF4D6;
+    padding: 70px;
+    border-radius: 8px;
+}  
+.plane-icon{
+ width: 65px;
+ height: 60px;
+ margin-bottom: 20px;
+}
+.donate-plane-title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.donate-plan-para{
+    color: gray;
+    font-size: 20px; 
+}
+/* donation system */
+.donation-system-container{
+    display: flex;
+    gap: 30px;
+    margin:130px 200px;
+    
+}
+.donation-system{
+
+}
+.donation-system-title{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.donation-system-desc{
+    color: gray;
+    font-size: 20px; 
+}
